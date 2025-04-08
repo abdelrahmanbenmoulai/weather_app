@@ -7,10 +7,12 @@
     <title>Weather App</title>
     <link rel="stylesheet" href="projects/weather/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles(mockup).css">
 </head>
 
 <body>
+    <div class="back-button">
+        <button onclick="window.location.href='projects.html'">Back to Projects</button>
+    </div>
     <div class="container">
         <div class="search">
             <input type="text" id="city-input" placeholder="Enter city name">
@@ -20,7 +22,7 @@
             <div id="weather-info">
                 <h2 id="city">--</h2>
                 <div id="weather-icon">
-                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-cloud"></i>
                 </div>
                 <div id="temperature">--°C</div>
                 <div id="description">--</div>
@@ -30,7 +32,7 @@
         </div>
     </div>
     </div>
-    <script src="script.js"></script>
+    <script src="projects/weather/script.js"></script>
 </body>
 
 </html>
